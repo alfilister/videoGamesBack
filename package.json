@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
-
-
   "scripts": {
     "start": "node index.js",
     "test": "mocha -w ./tests/**/*.spec.js"
@@ -13,7 +10,7 @@
   "author": "Henry",
   "license": "ISC",
   "engines": {
-    "node" : ">=16.17.0",
+    "node": ">=16.17.0",
     "npm": ">=6.14.6"
   },
   "dependencies": {
@@ -27,7 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
     "pg": "^8.5.1",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.23.1"
   },
   "devDependencies": {
     "jest": "^27.5.1",
